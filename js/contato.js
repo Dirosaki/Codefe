@@ -42,16 +42,11 @@ function enviarDados(){
         document.dados.assunto.focus();
         return false;
     }
-    if(document.dados.telefone.value.trim == "" || document.dados.telefone.value.lenght < 8){
-        console.log('Campo TELEFONE vazio ou incorreto!');
-        document.dados.telefone.focus();
-        return false;
-    }
     if (document.dados.mensagem.value.trim == "")
     {
     console.log( "Campo MENSAGEM! vazio!" );
     document.dados.mensagem.focus();
-    return false;
+    return false; 
     }
     else{
         modal.style.display = 'flex';

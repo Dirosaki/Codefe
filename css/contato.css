@@ -1,7 +1,7 @@
 section{
     height: calc(100vh - 70px);
     width: 100%;
-    background-color: #9B0E0E;
+    background-color: #009BF5;
     margin-top: 70px;
     display: flex;
     align-items: center;
@@ -75,9 +75,9 @@ textarea::-webkit-scrollbar{
 
 textarea::-webkit-scrollbar-thumb{
     width: 5px;
-    background-color: #9B0E0E;
+    background-color: #009BF5;
     border-radius: 50px;
-    box-shadow: 0 0 10px #9B0E0E;
+    box-shadow: 0 0 10px #009BF5;
 }
 
 textarea::-webkit-scrollbar-track { 
@@ -104,11 +104,11 @@ button{
 }
 
 input:hover , textarea:hover{
-    border-color: #9B0E0E;
+    border-color: #009BF5;
 }
 
 input:focus, textarea:focus{
-    border-color: #9B0E0E;
+    border-color: #009BF5;
 }
 
 button:hover{
@@ -117,7 +117,7 @@ button:hover{
     letter-spacing: 6px;
     box-shadow: 0 0 5px ;
     text-shadow: 0 0 1px white;
-    background-color: #9B0E0E;
+    background-color: #009BF5;
 }
 
 .modal{

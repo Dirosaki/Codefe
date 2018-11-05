@@ -1,7 +1,7 @@
 .divisionOne{
     height: calc(100vh - 70px);
     width: 100%;
-    background-color: #9B0E0E;
+    background-color: #009BF5;
     margin-top: 70px;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
 .divisionTwo{
     height: calc(100vh);
     width: 100%;
-    background-color: #9B0E0E;
+    background-color: #009BF5;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -128,8 +128,8 @@
 }
 
 .social i:hover{
-    color: #9B0E0E;
-    text-shadow: 0 0 1px #9B0E0E;
+    color: #009BF5;
+    text-shadow: 0 0 1px #009BF5;
     transform: scale(1.05);
 }
 

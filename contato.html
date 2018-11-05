@@ -34,17 +34,17 @@
     <section>
         <div class="opaca"></div>
         <div class="containContact">
-            <form method="POST" action="form.php" name="dados" onsubmit="return enviarDados();">
+            <form method="POST" action="http://127.0.0.1/Codefe/form.php" id="formulario" name="dados" onsubmit="return enviarDados();">
             <h2>CONTATO</h2>
                 <div class="inputs"> 
                     <input type="text" id="nome" name="nome" placeholder="Nome*" required >
                     <input type="text" name="sobrenome" placeholder="Sobrenome*" required>
                 </div>
                 <input type="email" name="mail" placeholder="Digite seu e-mail*" required>
+                <input type="tel" name="telefone" placeholder="Telefone">
                 <input type="text" name="assunto" placeholder="Assunto*"  required >
-                <input type="tel" name="telefone" placeholder="Telefone*"  required>
                 <textarea name="mensagem" placeholder="Escreva sua mensagem*" required ></textarea>
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </form>
         </div>
         <div class="modal">

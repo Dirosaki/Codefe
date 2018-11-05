@@ -1,0 +1,96 @@
+section{
+    height: calc(100vh - 70px);
+    background-color: #009BF5;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contain{
+    height: 90%;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    position: relative;
+}
+
+.business{
+    height: 80%;
+    width: 22%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 5px;
+}
+
+.bprofile{
+    height: 90%;
+    width: 100%;
+    background: url(../img/camila.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.btitle{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+.bprofile a{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    transition: 0.5s;
+}
+
+.bprofile .link{
+    transform: translateY(0);
+}
+
+.bprofile a i{
+    font-size: 300%;
+    text-align: center;
+    color: #009BF5;
+}
+
+.contain i{
+    font-size: 32px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.contain i:first-child{
+    position: absolute;
+    left: -16px;
+}
+.contain i:last-child{
+    position: absolute;
+    right: -16px;
+}
